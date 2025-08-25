@@ -45,7 +45,8 @@ GIF created with LiceCap
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
-I also had trouble first with connecting with Supabase. I asked ChatGPT and it pointed out that my table name and link had an error. I had trouble with the CSS of the page. For this, I asked ChatGPT which helped me understand how to do the global CSS but also individual for each page I had. One CSS item I had trouble with was having the home button on the side of the AddCreator and ViewCreator page. 
+
+One challenge I had was connecting with Supabase. I asked ChatGPT and it pointed out that my table name and link had an error. I had trouble with the CSS of the app. For this, I asked ChatGPT which helped me understand how to do the global CSS but also individual for each page I had. One CSS item I had trouble with was having the home button on the side of the AddCreator and ViewCreator page. 
 ## License
 
 Copyright 2025 Malhiya Arnib
