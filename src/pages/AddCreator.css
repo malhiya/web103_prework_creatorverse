@@ -1,0 +1,95 @@
+.add-creator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #D2E1C8;
+    min-height: 100vh;
+  }
+  
+  .add-creator-container > button:first-of-type {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    padding: 0.5rem 1rem; 
+    font-size: 0.85rem;   
+  }
+  .page-title {
+    font-size: 2.5rem;
+    color: #1e2a47;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+
+  .add-creator-form {
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1e2a47;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-group input:focus,
+  .input-group textarea:focus {
+    border-color: #FF8787;
+  }
+  
+  
+  .input-group input[type='url'] {
+    font-style: italic;
+  }
+  
+  
+  .form-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .submit-btn {
+    background-color: #FF8787;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #FF8787;
+  }
+  
+  .submit-btn:focus {
+    outline: none;
+  }
+  
+  

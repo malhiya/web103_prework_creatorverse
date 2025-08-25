@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F4E3;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+
+  .page-container {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+
+  .hero-container {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #D2E1C8;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 3rem auto; 
+  }
+  
+  
+  .hero-container h1 {
+    font-size: 3.5rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-container p {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 2rem;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-container button {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    background-color: #FF8787;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #FF8787;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .hero-container button:hover {
+    background-color: white;
+    color: #FF8787;
+    border: 2px solid #FF8787;
+  }
+  
+  .hero-container button:focus {
+    outline: none;
+  }
+  
+
+  .show-creators-section {
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .show-creators-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #1e2a47;
+  }
+  
+  .show-creators-section .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+  
+  .show-creators-section .grid p {
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  
+    display: -webkit-box;      
+    -webkit-line-clamp: 3;    
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
